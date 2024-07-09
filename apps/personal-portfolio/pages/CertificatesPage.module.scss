@@ -1,0 +1,104 @@
+.resumeViewer {
+  position: relative;
+
+  .pdfFrame {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ff00; /* Add glowing effect with green color */
+    transition: box-shadow 0.3s ease; /* Add transition effect */
+
+    &:hover {
+      box-shadow: 0 0 20px #00ff00; /* Increase glow on hover */
+    }
+  }
+}
+.certificates-area {
+  /* Your existing styles */
+
+  .certificates-grid {
+    display: grid;
+    gap: 50px; /* Gap between grid items */
+  }
+
+  .certificate-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    cursor: pointer;
+    margin-bottom: 20px; /* Add margin bottom to create gap */
+    border: 2px solid transparent; /* Initial border color */
+  }
+
+  .certificate-item:hover {
+    border-color: rgba(255, 255, 255, 0.5); /* Change border color on hover */
+    transform: scale(1.1); /* Increase size on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Add shadow on hover */
+  }
+
+  .certificate-item::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    animation: flowing-light 4s linear infinite; /* Adjust animation duration */
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .certificate-item:hover::before {
+    opacity: 1;
+  }
+
+  @keyframes flowing-light {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      transform: translate(50%, 50%);
+    }
+  }
+
+  .img-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .certificate-image {
+    max-width: 100%;
+    max-height: 100%; /* Ensure certificates don't exceed original size */
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  @media (min-width: 768px) {
+    /* For screens wider than 768px (PC view) */
+    .certificates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 3fr)); /* Adjusted column width for larger images */
+    }
+  }
+}
+
+
+.download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  transition: transform 0.3s ease;
+}
+
+.btn.clicked {
+  transform: scale(0.9);
+}
+

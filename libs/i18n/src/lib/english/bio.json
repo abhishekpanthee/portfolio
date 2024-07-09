@@ -1,0 +1,95 @@
+{
+  "bio": {
+    "media": "/assets/profilelg.jpg",
+    "details": {
+      "heading": "Bio",
+      "name": "Abhishek Panthee",
+      "description": "Hey there! 😊 I'm a student , diving into the worlds of cybersecurity and machine learning. I write poems , stories or tech stuff. Excited to learn and grow with you the advancement of technology 🚀"
+    }
+  },
+  "experience": {
+    "heading": "Experience",
+    "experience": [
+      {
+        "date": "2023 - Present",
+        "title": "Information Security Analyst",
+        "company": "Freelancer"
+      },
+      {
+        "date": "2023 - Present",
+        "title": "CEO",
+        "company": "Abishek Enterprises"
+      }
+    ]
+  },
+  "education": {
+    "heading": "Education",
+    "education": [
+      {
+        "date": "Professional Certificate",
+        "degree": "Google Cybersecurity",
+        "university": "Coursera"
+      },
+      {
+        "date": "Professional degree",
+        "degree": "Bachelor Degree in CS ",
+        "university": "Thapathali Campus IOE"
+      },
+      {
+        "date": "High School",
+        "degree": "SLC",
+        "university": "The Times International College"
+      },
+      {
+        "date": "Primary School",
+        "degree": "SEE",
+        "university": "Paramount Boarding High School"
+      }
+    ]
+  },
+  "profiles": {
+    "heading": "Profiles",
+    "caption": "Stay Connected",
+    "media": null,
+    "button": {
+      "link": "/contact",
+      "icon": {
+        "light": "/assets/icons/icon-2.svg",
+        "dark": "/assets/icons/icon.svg"
+      }
+    },
+    "profiles": [
+      {
+        "link": "https://github.com/abhishekpanthee",
+        "icon": "iconoir-github"
+      },
+      {
+        "link": "https://www.linkedin.com/in/abhishekpanthee/",
+        "icon": "iconoir-linkedin"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Let's <br /> <span>collaborate.</span>",
+    "media": "/assets/icons/icon2.png",
+    "button": {
+      "link": "/contact",
+      "icon": {
+        "light": "/assets/icons/icon-2.svg",
+        "dark": "/assets/icons/icon.svg"
+      }
+    }
+  },
+  "credentials": {
+    "heading": "Qualifications",
+    "caption": "A little on me",
+    "media": "/assets/signature.png",
+    "button": {
+      "link": "/credentials",
+      "icon": {
+        "light": "/assets/icons/icon-2.svg",
+        "dark": "/assets/icons/icon.svg"
+      }
+    }
+  }
+}

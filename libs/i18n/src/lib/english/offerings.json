@@ -1,0 +1,118 @@
+{
+  "heading": "Offerings",
+  "navbar": {
+    "heading": null,
+    "entries": [
+      {
+        "icon": "iconoir-terminal",
+        "text": "Bash Scripting",
+        "topics": [
+          "Efficient Workflow Automation",
+          "Task Streamlining",
+          "Scripting Solutions"
+        ]
+      },
+      {
+        "icon": "iconoir-pc-firewall",
+  "text": "Firewall Management & Security",
+  "topics": [
+    "Firewall Configuration",
+    "Intrusion Detection",
+    "Traffic Filtering",
+    "Firewall Policies",
+    "Network Segmentation"
+  ]
+      },
+      {
+        "icon": "iconoir-terminal-tag",
+        "text": "Python Development",
+        "topics": [
+          "Machine learning",
+          "Data Analysis",
+          "Automation"
+        ]
+      },
+      {
+        "icon": "iconoir-pc-warning",
+        "text": "Secure Networking & Computing",
+        "topics": [
+          "Network Security",
+          "Encryption",
+          "Secure Protocols"
+        ]
+      }
+    ]
+  },
+  "offerings": [
+    {
+      "title": "Bash Scripting",
+      "description": [
+        "- <b>Efficient Workflow Automation</b>: Creating automated workflows to streamline tasks and processes for enhanced efficiency.",
+        "- <b>Task Streamlining</b>: Simplifying complex tasks through scripting solutions, reducing manual effort and errors.",
+        "- <b>Scripting Solutions</b>: Providing custom Bash scripts tailored to specific needs for optimal system management."
+      ]
+    },
+    {
+      
+      "title": "Firewall Management & Security",
+      "description": [
+        "- <b>Firewall Configuration</b>: Setting up and managing firewall rules to control network traffic.",
+        "- <b>Intrusion Detection</b>: Implementing systems to detect unauthorized access or anomalies in network traffic.",
+        "- <b>Traffic Filtering</b>: Filtering network traffic to block unauthorized access and prevent security breaches.",
+        "- <b>Firewall Policies</b>: Developing and enforcing policies to protect network resources."
+      ]
+    },
+    {
+      "title": "Python Development",
+      "description": [
+        "- <b>Web Development</b>: Developing robust web applications and websites using Python frameworks like Django and Flask.",
+        "- <b>Data Analysis</b>: Utilizing Python libraries such as Pandas and NumPy for in-depth data analysis and visualization.",
+        "- <b>Automation</b>: Writing Python scripts to automate repetitive tasks and processes, increasing productivity and accuracy."
+      ]
+    },
+    {
+      "title": "Secure Networking & Computing",
+      "description": [
+        "- <b>Network Security</b>: Implementing secure networking practices to protect against unauthorized access and cyber threats.",
+        "- <b>Encryption</b>: Utilizing encryption algorithms to safeguard sensitive data during transmission and storage.",
+        "- <b>Secure Protocols</b>: Developing and implementing secure communication protocols to ensure data integrity and confidentiality."
+      ]
+    }
+  ],
+  "profiles": {
+    "heading": "Profiles",
+    "caption": "Stay Connected",
+    "media": null,
+    "button": {
+      "link": "/contact",
+      "icon": "/assets/icons/cta-icon.svg"
+    },
+    "profiles": [
+      {
+        "link": "https://github.com/abhishekpanthee",
+        "icon": "iconoir-github"
+      },
+      {
+        "link": "https://www.linkedin.com/in/abhishek-panthee-4b00631a7/",
+        "icon": "iconoir-linkedin"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "See my  <br />  <span> Resume</span>",
+    "media": "/assets/icons/icon2.png",
+    "button": {
+      "link": "/cv",
+      "icon": "/assets/icons/cta-icon.svg"
+    }
+  },
+  "credentials": {
+    "heading": "Qualifications",
+    "caption": "A little on Abhishek",
+    "media": "/assets/signature.png",
+    "button": {
+      "link": "/credentials",
+      "icon": "/assets/icons/cta-icon.svg"
+    }
+  }
+}

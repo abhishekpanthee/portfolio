@@ -1,0 +1,46 @@
+{
+  "contact": {
+    "heading": "Contact",
+    "mail": {
+      "heading": "MAIL",
+      "icon": "iconoir-mail",
+      "links": ["abhishekpanthee@proton.me", "info@abhishekpanthee.com.np"]
+    },
+    "phone": {
+      "heading": "CONTACT",
+      "icon": "iconoir-phone",
+      "links": [
+        {
+          "text": "Calendly",
+          "href": "https://calendly.com/abhishekpanthee5"
+        }
+      ]
+    },
+    "location": {
+      "heading": "LOCATION",
+      "icon": "iconoir-pin-alt",
+      "type": "Location",
+      "location": "Butwal, Nepal"
+    }
+  },
+  "profiles": {
+    "heading": "External",
+    "profiles": [
+      {
+        "link": "https://github.com/abhishekpanthee",
+        "icon": "iconoir-github"
+      },
+      {
+        "link": "https://www.linkedin.com/in/abhishekpanthee/",
+        "icon": "iconoir-linkedin"
+      }
+    ]
+  },
+  "form": {
+    "heading": "Let’s <span>chat.</span>",
+    "onCompletion": "Message has been dispatched!",
+    "button": {
+      "text": "Dispatch Message"
+    }
+  }
+}
