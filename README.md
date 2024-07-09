@@ -46,25 +46,25 @@ $ docker-compose up -d
 ├── Dockerfile
 ├── README.md
 ├── apps
-│   ├── personal-portfolio
-│   │   ├── case-studies
-│   │   ├── index.d.ts
-│   │   ├── jest.config.ts
-│   │   ├── next-env.d.ts
-│   │   ├── next.config.js
-│   │   ├── pages
-│   │   ├── posts
-│   │   ├── project.json
-│   │   ├── public
-│   │   ├── tests
-│   │   ├── tsconfig.json
-│   │   ├── tsconfig.spec.json
-│   │   └── utils
-│   └── personal-portfolio-e2e
-│       ├── cypress.config.ts
+│   └── personal-portfolio
+│       ├── case-studies
+│       ├── index.d.ts
+│       ├── jest.config.ts
+│       ├── next-env.d.ts
+│       ├── next.config.js
+│       ├── pages
+│       ├── posts
 │       ├── project.json
-│       ├── src
-│       └── tsconfig.json
+│       ├── public
+│       ├── tests
+│       ├── tsconfig.json
+│       ├── tsconfig.spec.json
+│       └── utils
+│   
+│       
+│       
+│       
+│       
 ├── assets
 │   └── open-link.svg
 ├── compose.yaml
