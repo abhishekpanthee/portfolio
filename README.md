@@ -46,7 +46,7 @@ $ docker-compose up -d
 ├── Dockerfile
 ├── README.md
 ├── apps
-│   ├── portfolio
+│   ├── personal-portfolio
 │   │   ├── case-studies
 │   │   ├── index.d.ts
 │   │   ├── jest.config.ts
