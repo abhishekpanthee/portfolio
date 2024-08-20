@@ -52,7 +52,7 @@
     "@nx/workspace": "19.6.1",
     "@swc/cli": "0.3.14",
     "@swc/core": "1.5.7",
-    "@testing-library/react": "15.0.6",
+    "@testing-library/react": "15.0.7",
     "@types/aos": "^3.0.4",
     "@types/jest": "29.5.12",
     "@types/node": "18.16.9",
