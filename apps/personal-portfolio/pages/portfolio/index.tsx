@@ -11,6 +11,9 @@ import Link from 'next/link';
 import path from 'path';
 import Moment from 'react-moment';
 import { CASE_STUDIES_PATH, caseStudiesFilePaths } from '../../utils/mdx.utils';
+import GithubCalendar from '../../../../libs/core-components/src/lib/GithubCalendar';
+import Image from 'next/image';
+import Skills from '../../../../libs/core-components/src/lib/skills/skills';
 
 export const getStaticProps: GetStaticProps<PortfolioPageProps> = () => {
   const caseStudies = caseStudiesFilePaths
@@ -204,8 +207,6 @@ const PortfolioPage = ({ caseStudies }: PortfolioPageProps) => {
                         >
                           <img src="/assets/icons/cta-icon.svg" alt="Button" />
                         </Link>
-
-                       
                       </div>
                     </div>
                   </div>
@@ -224,7 +225,48 @@ const PortfolioPage = ({ caseStudies }: PortfolioPageProps) => {
                 />
                 <h1> See my <span>CV</span>
 </h1>                </div>
-        </div>
+<div className="mt-5"></div>
+<div className="about-contact-box info-box shadow-box">
+  <img src="/assets/bg1.png" alt="BG" className="bg-img" />
+  <img
+    src="/assets/icons/icon2.png"
+    alt="Icon"
+    className="star-icon"
+  />
+  <div className="w-full max-w-3xl mx-auto">
+    <h1> 
+      <GithubCalendar username="abhishekpanthee" />
+      <div className="image-container">
+        <Image
+          src="https://raw.githubusercontent.com/abhishekpanthee/abhishekpanthee/main/profile-3d-contrib/profile-night-green.svg"
+          alt="3d-graph"
+          layout="responsive"
+          width={1000}
+          height={600}
+          quality={100}
+        />
+      </div>
+    </h1>    
+  </div> 
+  <br />
+  <Skills />           
+</div>
+
+</div>
+
+<style jsx>{`
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+`}</style>
+
+        
       </section>
   
                 

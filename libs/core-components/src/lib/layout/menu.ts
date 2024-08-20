@@ -1,3 +1,4 @@
+// menu.ts
 export const menu = [
   {
     label: 'Home',
@@ -19,8 +20,12 @@ export const menu = [
     label: 'Contact',
     path: '/contact',
   },
-   {
+  {
     label: 'Certificates',
     path: '/certificates',
+  },
+  {
+    label: ' 🔗 Links',
+    path: 'https://links.abhishekpanthee.com.np',
   },
 ];

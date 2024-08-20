@@ -8,8 +8,11 @@ import 'react-image-lightbox/style.css';
 const CertificatesPage: React.FC = () => {
   const certificates = [
     'c12.jpg',
+    'c15.jpg',
     'c6.jpg',
+    'c13.jpg',
     'c8.jpg',
+    'c14.jpg',
     'c7.jpg',
     'c5.jpg',
     'c9.jpg',

@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ThemeConfigurator } from '../theme-configurator.component';
 import { menu } from './menu';
+
 export const Header = () => {
   const router = useRouter();
   const dispatch = useAppDispatch();
@@ -25,24 +26,35 @@ export const Header = () => {
 
   return (
     <header className="header-area">
-      
       <div className="container">
         <div className="gx-row d-flex align-items-center justify-content-between">
-       
           <Link href="/" className="logo">
             <img src="/assets/logo/logo.png" alt="Logo" />
-            
           </Link>
           <nav
             className={classNames('navbar', { active: displayMobileNavbar })}
           >
             <ul className="menu">
               {menu.map((entry, i) => (
-                <li className={isOnPath(entry.path)} key={i}>
-                  <Link href={entry.path} onClick={handleToggle}>
-                    {entry.label}
-                  </Link>
-                </li>
+                entry.path.startsWith('http') ? (
+                  <li key={i}>
+                    <a
+                      href={entry.path}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className={classNames({ active: isOnPath(entry.path) })}
+                      onClick={handleToggle}
+                    >
+                      {entry.label}
+                    </a>
+                  </li>
+                ) : (
+                  <li className={isOnPath(entry.path)} key={i}>
+                    <Link href={entry.path} onClick={handleToggle}>
+                      {entry.label}
+                    </Link>
+                  </li>
+                )
               ))}
             </ul>
             <a
@@ -54,7 +66,6 @@ export const Header = () => {
               💬 Chat with Me
             </a>
           </nav>
-
           <ThemeConfigurator />
           <div
             className={classNames('show-menu', { active: displayMobileNavbar })}
