@@ -15,7 +15,7 @@
     "@nx/next": "19.6.1",
     "@reduxjs/toolkit": "^1.9.5",
     "@splinetool/react-spline": "^2.2.6",
-    "@splinetool/runtime": "^1.9.18",
+    "@splinetool/runtime": "^1.9.20",
     "@swc/helpers": "0.5.12",
     "@vercel/analytics": "^1.0.2",
     "@vercel/speed-insights": "^1.0.10",
