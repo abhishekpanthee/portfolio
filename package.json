@@ -21,7 +21,7 @@
     "@vercel/speed-insights": "^1.0.10",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.3",
-    "classnames": "^2.3.2",
+    "classnames": "^2.5.1",
     "d3": "^7.9.0",
     "disqus-react": "^1.1.5",
     "framer-motion": "^10.16.1",
