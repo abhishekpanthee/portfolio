@@ -13,7 +13,7 @@
     "@formspree/react": "^2.5.1",
     "@hotjar/browser": "^1.0.9",
     "@nx/next": "19.6.1",
-    "@reduxjs/toolkit": "^2.0.0",
+    "@reduxjs/toolkit": "^2.2.8",
     "@splinetool/react-spline": "^4.0.0",
     "@splinetool/runtime": "^1.9.18",
     "@swc/helpers": "0.5.12",
