@@ -62,7 +62,7 @@
     "@typescript-eslint/parser": "8.28.0",
     "babel-jest": "29.7.0",
     "cypress": "13.14.0",
-    "eslint": "8.57.0",
+    "eslint": "8.57.1",
     "eslint-config-next": "14.2.26",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-cypress": "^2.13.4",
